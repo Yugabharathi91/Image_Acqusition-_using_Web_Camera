@@ -1,5 +1,5 @@
 # Image_Acqusition-_using_Web_Camera
-## Name: HARISH.D
+## Name: YUGABHARATHI M
 ## Register no:212224220034
 
 ## Aim:
@@ -33,8 +33,8 @@ End Program with 'q'. Allow the program to be terminated by pressing the 'q' key
 
 
 ## Program:
-### Developed By: HARISH.D
-### Register No: 212224220034
+### Developed By: YUGABHARATHI M
+### Register No: 212224230314
 
 
 ## i) Write the frame as JPG file
@@ -47,7 +47,7 @@ import time
 cap = cv2.VideoCapture(0)
 ret, frame = cap.read()
 if ret:
-    cv2.imwrite("harish.jpg", frame)
+    cv2.imwrite("yugabharathi.jpg", frame)
 cap.release()
 captured_image = cv2.imread('harish.jpg')
 plt.imshow(captured_image[:,:,::-1])
@@ -125,25 +125,24 @@ cap.release()
 ## Output
 
 ### i) Write the frame as JPG image
-<img width="728" height="564" alt="image" src="https://github.com/user-attachments/assets/5934ce82-af3b-4a50-b0d0-d6a44e7ae596" />
-
+<img width="538" height="280" alt="image" src="https://github.com/user-attachments/assets/a913194c-3fc6-4926-9c31-1fd1f8f7374f" />
 
 
 ### ii) Display the video
-<img width="683" height="487" alt="image" src="https://github.com/user-attachments/assets/f685e80d-1776-4f89-864f-384170ee970e" />
+![WIN_20260203_11_02_59_Pro](https://github.com/user-attachments/assets/23b917cd-45f5-4056-8190-eec93c9ac6b7)
 
 
 
 ### iii) Display the video by resizing the window
-<img width="348" height="482" alt="image" src="https://github.com/user-attachments/assets/bb18d5ac-bbd2-485c-8c13-f029058ed214" />
+<img width="586" height="982" alt="image" src="https://github.com/user-attachments/assets/82c0bae2-a537-439d-a9b9-e09a32d9dbd7" />
+
 
 
 
 
 
 ### iv) Rotate and display the video
-<img width="388" height="493" alt="image" src="https://github.com/user-attachments/assets/f0ed420d-f834-431b-9d04-d95c70828f61" />
-
+![WIN_20260203_11_02_59_Pro](https://github.com/user-attachments/assets/24e595ee-b0af-4c53-8e4d-b1612415f8c0)
 
 
 ## Result:
