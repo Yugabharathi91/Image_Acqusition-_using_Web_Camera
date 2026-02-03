@@ -1,6 +1,6 @@
 # Image_Acqusition-_using_Web_Camera
-## Name: HARISH.D
-## Register no:212224220034
+## Name: YUGABHARATHI M
+## Register no:212224230314
 
 ## Aim:
  
@@ -33,8 +33,8 @@ End Program with 'q'. Allow the program to be terminated by pressing the 'q' key
 
 
 ## Program:
-### Developed By: HARISH.D
-### Register No: 212224220034
+### Developed By: YUGABHARATHI M
+### Register No: 212224230314
 
 
 ## i) Write the frame as JPG file
@@ -47,9 +47,9 @@ import time
 cap = cv2.VideoCapture(0)
 ret, frame = cap.read()
 if ret:
-    cv2.imwrite("harish.jpg", frame)
+    cv2.imwrite("yugabharathi.jpg", frame)
 cap.release()
-captured_image = cv2.imread('harish.jpg')
+captured_image = cv2.imread('.jpg')
 plt.imshow(captured_image[:,:,::-1])
 plt.title('Captured Frame')
 plt.axis('off')
